@@ -1,0 +1,55 @@
+*{
+    box-sizing: border-box;
+    margin: 0px;
+    padding: 0px;
+}
+
+#heading
+{
+    text-align: center;
+    text-decoration: underline;
+}
+
+#container
+{
+    height: 455px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+.button
+{
+    margin:5px;
+    border: 3px solid black;
+    height: 80px;
+    width: 80px;
+    cursor: pointer;
+}
+
+#blue
+{
+    background-color: #0000FF;
+}
+
+#yellow
+{
+    background-color: #FFFF00
+}
+
+#green
+{
+    background-color: #00FF00
+}
+
+#grey
+{
+    background-color: #808080;
+}
+
+#footer
+{
+    text-align: center;
+    position: fixed;
+    bottom: 0px;
+}
